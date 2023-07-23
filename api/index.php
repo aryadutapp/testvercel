@@ -1,7 +1,3 @@
-<?php
-
-header('content-type: application/json');
-echo json_encode(['time' => time(), 'date' => date('d.m.Y'), 'tech' => 'Vercel']);
 
 <?php
 // Replace the following variables with your actual PostgreSQL database credentials
